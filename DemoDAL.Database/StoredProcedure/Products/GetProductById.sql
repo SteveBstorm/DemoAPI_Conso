@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].[GetProductById]
+	@Id INT
+AS
+BEGIN
+	SELECT * FROM Product WHERE Id = @Id
+END

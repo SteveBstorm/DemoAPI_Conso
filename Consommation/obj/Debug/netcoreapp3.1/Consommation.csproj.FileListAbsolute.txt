@@ -1,0 +1,15 @@
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\bin\Debug\netcoreapp3.1\Consommation.exe
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\obj\Debug\netcoreapp3.1\Consommation.AssemblyInfoInputs.cache
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\obj\Debug\netcoreapp3.1\Consommation.AssemblyInfo.cs
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\bin\Debug\netcoreapp3.1\Consommation.deps.json
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\bin\Debug\netcoreapp3.1\Consommation.runtimeconfig.json
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\bin\Debug\netcoreapp3.1\Consommation.runtimeconfig.dev.json
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\bin\Debug\netcoreapp3.1\Consommation.dll
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\bin\Debug\netcoreapp3.1\Consommation.pdb
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\obj\Debug\netcoreapp3.1\Consommation.csprojAssemblyReference.cache
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\obj\Debug\netcoreapp3.1\Consommation.csproj.CoreCompileInputs.cache
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\obj\Debug\netcoreapp3.1\Consommation.csproj.CopyComplete
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\obj\Debug\netcoreapp3.1\Consommation.dll
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\obj\Debug\netcoreapp3.1\Consommation.pdb
+C:\Users\Steve\source\Demo\DemoDAL\Consommation\obj\Debug\netcoreapp3.1\Consommation.genruntimeconfig.cache

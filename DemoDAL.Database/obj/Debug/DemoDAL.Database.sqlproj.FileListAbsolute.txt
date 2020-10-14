@@ -1,0 +1,16 @@
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\bin\Debug\DemoDAL.Database.dacpac
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\bin\Debug\DemoDAL.Database.dll
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\bin\Debug\DemoDAL.Database.pdb
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.sqlprojAssemblyReference.cache
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\obj\Debug\Model.xml
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\obj\Debug\refactor.xml
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\obj\Debug\postdeploy.sql
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\obj\Debug\predeploy.sql
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.dll
+C:\Users\forma300\source\repos\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.pdb
+C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\bin\Debug\DemoDAL.Database.dacpac
+C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\bin\Debug\DemoDAL.Database.dll
+C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\bin\Debug\DemoDAL.Database.pdb
+C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.sqlprojAssemblyReference.cache
+C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.dll
+C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.pdb

@@ -1,0 +1,22 @@
+﻿** Met en surbrillance
+     Tables à reconstruire
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Brand] (Table)
+       [dbo].[Product] (Table)
+       [dbo].[FK_Product_Brand] (Clé étrangère)
+       [dbo].[AddBrand] (Procédure)
+       [dbo].[DeleteBrand] (Procédure)
+       [dbo].[GetAllBrand] (Procédure)
+       [dbo].[GetBrandById] (Procédure)
+       [dbo].[UpdateBrand] (Procédure)
+
+** Actions de support

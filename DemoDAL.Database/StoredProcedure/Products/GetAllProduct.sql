@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].[GetAllProduct]
+
+AS
+BEGIN
+	SELECT * FROM Product
+END
