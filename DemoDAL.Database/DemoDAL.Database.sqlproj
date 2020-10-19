@@ -61,6 +61,8 @@
     <Folder Include="Scripts" />
     <Folder Include="StoredProcedure\Products" />
     <Folder Include="Views" />
+    <Folder Include="Functions" />
+    <Folder Include="StoredProcedure\Authentification" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Product.sql" />
@@ -76,8 +78,19 @@
     <Build Include="StoredProcedure\Products\GetProductById.sql" />
     <Build Include="StoredProcedure\Products\UpdateProduct.sql" />
     <Build Include="StoredProcedure\Products\GetProductByBrandId.sql" />
+    <Build Include="Tables\Utilisateur.sql" />
+    <Build Include="Functions\GetPreSalt.sql" />
+    <Build Include="Functions\GetPostSalt.sql" />
+    <Build Include="StoredProcedure\Authentification\RegisterUser.sql" />
+    <Build Include="StoredProcedure\Authentification\CheckUser.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DemoDAL.Database.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DemoDAL.Database.refactorlog" />
   </ItemGroup>
 </Project>

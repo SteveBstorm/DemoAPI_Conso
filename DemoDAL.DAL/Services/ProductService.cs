@@ -17,8 +17,12 @@ namespace DemoDAL.DAL.Services
                 reader["Name"].ToString(),
                 (decimal)reader["Price"],
                 reader["EAN13"].ToString(),
-                (int)reader["BrandId"]
-                );
+                (int)reader["BrandId"]);
+        }
+
+        public ProductService(Connection connection) : base(connection)
+        {
+
         }
 
         public override bool Delete(int key)
@@ -26,7 +30,7 @@ namespace DemoDAL.DAL.Services
             Command cmd = new Command("DeleteProduct", true);
             cmd.AddParameter("Id", key);
 
-            return connection.ExecuteNonQuery(cmd) == 1;
+            return Connection.ExecuteNonQuery(cmd) == 1;
         }
 
         public override Product Get(int key)
@@ -34,14 +38,14 @@ namespace DemoDAL.DAL.Services
             Command cmd = new Command("GetProductById", true);
             cmd.AddParameter("Id", key);
 
-            return connection.ExecuteReader<Product>(cmd, Converter).FirstOrDefault();
+            return Connection.ExecuteReader<Product>(cmd, Converter).FirstOrDefault();
         }
 
         public override IEnumerable<Product> GetAll()
         {
             Command cmd = new Command("GetAllProduct", true);
 
-            return connection.ExecuteReader<Product>(cmd, Converter);
+            return Connection.ExecuteReader<Product>(cmd, Converter);
         }
 
         public override int Insert(Product entity)
@@ -52,7 +56,7 @@ namespace DemoDAL.DAL.Services
             cmd.AddParameter("BrandId", entity.BrandId);
             cmd.AddParameter("Price", entity.Price);
 
-            return connection.ExecuteNonQuery(cmd);
+            return Connection.ExecuteNonQuery(cmd);
         }
 
         public override bool Update(Product entity)
@@ -64,7 +68,7 @@ namespace DemoDAL.DAL.Services
             cmd.AddParameter("Price", entity.Price);
             cmd.AddParameter("Id", entity.Id);
 
-            return connection.ExecuteNonQuery(cmd) == 1;
+            return Connection.ExecuteNonQuery(cmd) == 1;
         }
 
         public IEnumerable<Product> GetByBrandId(int key)
@@ -72,7 +76,7 @@ namespace DemoDAL.DAL.Services
             Command cmd = new Command("GetProductByBrandId", true);
             cmd.AddParameter("Id", key);
 
-            return connection.ExecuteReader<Product>(cmd, Converter);
+            return Connection.ExecuteReader<Product>(cmd, Converter);
         }
     }
 }

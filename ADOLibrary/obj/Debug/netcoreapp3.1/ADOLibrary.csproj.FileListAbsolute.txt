@@ -24,3 +24,11 @@ C:\Users\Steve\source\Demo\DemoDAL\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary
 C:\Users\Steve\source\Demo\DemoDAL\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.AssemblyInfo.cs
 C:\Users\Steve\source\Demo\DemoDAL\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.dll
 C:\Users\Steve\source\Demo\DemoDAL\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.pdb
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\ADOLibrary\bin\Debug\netcoreapp3.1\ADOLibrary.deps.json
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\ADOLibrary\bin\Debug\netcoreapp3.1\ADOLibrary.dll
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\ADOLibrary\bin\Debug\netcoreapp3.1\ADOLibrary.pdb
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.AssemblyInfoInputs.cache
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.AssemblyInfo.cs
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.dll
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\ADOLibrary\obj\Debug\netcoreapp3.1\ADOLibrary.pdb

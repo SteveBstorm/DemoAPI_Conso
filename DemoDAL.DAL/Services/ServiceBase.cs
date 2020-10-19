@@ -9,11 +9,11 @@ namespace DemoDAL.DAL.Services
     public abstract class ServiceBase<TKey, TEntity> : IService<TKey, TEntity>
         where TEntity : IEntity<TKey>
     {
-        protected Connection connection;
+        protected Connection Connection { get; private set; }
 
-        public ServiceBase()
+        public ServiceBase(Connection connection)
         {
-            connection = new Connection(@"Data Source=DESKTOP-RGPQP6I\TFTIC2014;Initial Catalog=DemoDal;Integrated Security=True;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            Connection = connection; 
         }
 
         public abstract TEntity Get(TKey key);

@@ -10,3 +10,15 @@ C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.D
 C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.csproj.CopyComplete
 C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.dll
 C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.pdb
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\bin\Debug\netcoreapp3.1\DemoDAL.DAL.deps.json
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\bin\Debug\netcoreapp3.1\DemoDAL.DAL.dll
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\bin\Debug\netcoreapp3.1\DemoDAL.DAL.pdb
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\bin\Debug\netcoreapp3.1\ADOLibrary.dll
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\bin\Debug\netcoreapp3.1\ADOLibrary.pdb
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.csprojAssemblyReference.cache
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.AssemblyInfoInputs.cache
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.AssemblyInfo.cs
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.csproj.CopyComplete
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.dll
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.DAL\obj\Debug\netcoreapp3.1\DemoDAL.DAL.pdb

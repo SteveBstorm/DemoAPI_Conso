@@ -6,24 +6,27 @@ using DemoDAL.DAL.Models;
 using DemoDAL.DAL.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using ProductWebAPI.Infrastructure;
 
 namespace ProductWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AuthRequired]
     public class ProductController : ControllerBase
     {
-        ProductService _service;
+        private readonly ProductService _service;
 
-        public ProductController()
+        public ProductController(ProductService service)
         {
-            _service = new ProductService();
+            _service = service;
         }
 
         [HttpGet]
         public IEnumerable<Product> GetAll()
         {
-            return _service.GetAll();
+            return _service.GetAll().ToList();
         }
 
         [HttpGet("{Id}")]

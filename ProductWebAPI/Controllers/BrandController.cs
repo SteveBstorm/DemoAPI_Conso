@@ -6,24 +6,26 @@ using DemoDAL.DAL.Models;
 using DemoDAL.DAL.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProductWebAPI.Infrastructure;
 
 namespace ProductWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AuthRequired]
     public class BrandController : ControllerBase
     {
-        private BrandService _service;
+        private readonly BrandService _service;
 
-        public BrandController()
+        public BrandController(BrandService service)
         {
-            _service = new BrandService();
+            _service = service;
         }
 
         [HttpGet]
         public IActionResult GetAll()
         {
-           return Ok( _service.GetAll());
+           return Ok(_service.GetAll());
         }
 
         [HttpGet("{Id:int}")]

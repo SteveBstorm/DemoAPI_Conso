@@ -18,6 +18,11 @@ namespace DemoDAL.DAL.Services
                 );
         }
 
+        public BrandService(Connection connection) : base(connection)
+        {
+
+        }
+
         public override Brand Get(int key)
         {
             //Command cmd = new Command("SELECT Id, Name FROM Brand WHERE Id = @id");
@@ -25,7 +30,7 @@ namespace DemoDAL.DAL.Services
             
             cmd.AddParameter("Id", key);
 
-            return connection.ExecuteReader(cmd, Convert).SingleOrDefault();
+            return Connection.ExecuteReader(cmd, Convert).SingleOrDefault();
         }
 
         public override IEnumerable<Brand> GetAll()
@@ -33,7 +38,7 @@ namespace DemoDAL.DAL.Services
             //Command cmd = new Command("SELECT Id, Name FROM Brand");
             Command cmd = new Command("GetAllBrand", true);
 
-            return connection.ExecuteReader(cmd, Convert);
+            return Connection.ExecuteReader(cmd, Convert);
         }
 
         public override int Insert(Brand entity)
@@ -44,7 +49,7 @@ namespace DemoDAL.DAL.Services
             cmd.AddParameter("Name", entity.Name);
             try
             {
-                result = (int)connection.ExecuteScalar(cmd);
+                result = (int)Connection.ExecuteScalar(cmd);
             }
             catch(Exception e)
             {
@@ -61,7 +66,7 @@ namespace DemoDAL.DAL.Services
             cmd.AddParameter("Id", entity.Id);
             cmd.AddParameter("Name", entity.Name);
 
-            return connection.ExecuteNonQuery(cmd) == 1;
+            return Connection.ExecuteNonQuery(cmd) == 1;
         }
 
         public override bool Delete(int key)
@@ -70,7 +75,7 @@ namespace DemoDAL.DAL.Services
             Command cmd = new Command("DeleteBrand", true);
             cmd.AddParameter("Id", key);
 
-            return connection.ExecuteNonQuery(cmd) == 1;
+            return Connection.ExecuteNonQuery(cmd) == 1;
         }
     }
 }

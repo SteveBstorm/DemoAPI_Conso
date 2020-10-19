@@ -14,3 +14,12 @@ C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\bin\Debug\DemoDAL.Database.p
 C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.sqlprojAssemblyReference.cache
 C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.dll
 C:\Users\Steve\source\Demo\DemoDAL\DemoDAL.Database\obj\Debug\DemoDAL.Database.pdb
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\bin\Debug\DemoDAL.Database.dacpac
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\bin\Debug\DemoDAL.Database.dll
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\bin\Debug\DemoDAL.Database.pdb
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\obj\Debug\Model.xml
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\obj\Debug\refactor.xml
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\obj\Debug\postdeploy.sql
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\obj\Debug\predeploy.sql
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\obj\Debug\DemoDAL.Database.dll
+C:\Users\Briar\Source\Repos\DemoAPI_Conso\DemoDAL.Database\obj\Debug\DemoDAL.Database.pdb
